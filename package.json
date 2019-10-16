@@ -1,0 +1,15 @@
+{
+  "name": "leapod-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Douglas Haubert <dhaubert.ti@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/proxy.js",
+    "dev": "yarn nodemon  ./src/proxy.js",
+    "debug": "yarn nodemon  --inspect ./src/proxy.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
