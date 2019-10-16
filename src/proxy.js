@@ -36,7 +36,7 @@ const server = net.createServer(socket => {
   socket.setEncoding("utf8");
   socket._id = createId();
   socket.on("data", data => {
-    // receiving data
+    // handling data received for data
     handleData(data, socket);
   });
 });
